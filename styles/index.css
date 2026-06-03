@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
     font-family: "Roboto", sans-serif;
@@ -7,13 +8,24 @@ body{
     
 }
 
+.navbar ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
 .navbar{
     background-color: white;
     height: 50px;
     display: flex;
     padding-right: 10px;
     padding-left: 10px;
-    align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 a{
@@ -42,22 +54,20 @@ a{
 #cart-logo{
     width: 25px;
     height: 25px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
-#background-image{
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 
 #background-img{
-    background-image: url(../images/background.jpg);
-    height: 90vh;
+    background-image: url(../images/background2.jpg);
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
 }
 
 h1{
@@ -70,6 +80,54 @@ h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     
 }
+
+#shop-button{
+    font-size: 23px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+#cookies-section{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.cookies{
+    /* border: 2px solid black; */
+    justify-content: center;
+    width: 25%;
+    /* margin-bottom: 40px; */
+
+}
+
+.cookie-image{
+    margin-top: 100px;
+    border: 5px solid black;
+}
+
+
+.cookie-image img{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    height: 400px;
+    transition: 0.3s;
+}
+
+.cookie-image img:hover{
+    transform: scale(1.2);
+}
+
 
 
 
