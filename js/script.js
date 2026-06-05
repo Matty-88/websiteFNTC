@@ -18,6 +18,9 @@ const addProductToCart = (cookieInfo) => {
     const cartItem = document.createElement("div");
     cartItem.classList.add("cart-content");
 
+
+
+
     //Creates a new item for the cart
     cartItem.innerHTML = `
         <div class="checkout-image">
@@ -32,6 +35,7 @@ const addProductToCart = (cookieInfo) => {
         </div>
     `;
 
+
     //Adds the item to the cart
     cartContainer.appendChild(cartItem);
 
@@ -44,12 +48,12 @@ const addProductToCart = (cookieInfo) => {
         count--;
         cartCount.textContent = count;
 
-        if(count === 0){
-        cartCount.style.visibility = "hidden";
-    }  
+        if (count === 0) {
+            cartCount.style.visibility = "hidden";
+        }
     });
 
-      
+
 };
 
 //makes the add to cart button call the addProductToCart function
@@ -58,7 +62,7 @@ buttons.forEach(button => {
 
         const cookieInfo = event.target.closest(".cookies");
 
-        
+
 
         count++;
 

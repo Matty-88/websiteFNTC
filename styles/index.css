@@ -12,6 +12,7 @@ body {
     
 }
 
+/*Navbar and Hero Section*/
 .navbar ul {
     display: flex;
     align-items: center;
@@ -139,6 +140,7 @@ h1 {
     }
 }
 
+/*Products Section*/
 #cookies-section {
     height: 80vh;
     display: flex;
@@ -200,6 +202,7 @@ h1 {
     transform: scale(1.2);
 }
 
+/*Checkout Cart Section*/
 .checkout-cart-container {
     box-sizing: border-box;
     display: flex;
@@ -297,16 +300,15 @@ hr {
 
 
 
-
+/*Youtube Video Section*/
 #info{
     padding-bottom: 15px;
-    
 }
 
 #about-section{
     height: 170px;
     display: flex;
-    background-image: url(../images/big-farm.jpg);
+    background-image: url(https://images.pexels.com/photos/29405308/pexels-photo-29405308.jpeg?_gl=1*cgqwn5*_ga*MTQzMjIyNDQwMi4xNzgwMDg2MjE2*_ga_8JE65Q40S6*czE3ODA2ODU1NDIkbzIkZzEkdDE3ODA2ODU1NDUkajU3JGwwJGgw);
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
@@ -322,9 +324,6 @@ hr {
 
 }
 
-
-
-
 #video-section {
     display: flex;
     justify-content: center;
@@ -337,8 +336,7 @@ hr {
     height: 750px;
 }
 
-
-
+/*Footer Section*/
 footer {
     height: 50px;
     margin: 0;
